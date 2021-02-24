@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="screen">
+        <div id="display">
+          <p id="display-input"></p>
+        </div>
+      </div>
+      <div class="button">
+        <div class="row-1-1">
+          <input id = "off" type="button" value="on/off" onclick="getInput(this)" />
+        </div>
+        <div class="row-1-2">
+          <input type="button" value="ce" onclick="getInput(this)" />
+        </div>
+        <div class="row-1-3">
+          <input type="button" value="÷" onclick="getInput(this)" />
+        </div>
+        <div class="row-1-4">
+          <input type="button" value="x" onclick="getInput(this)" />
+        </div>
+        <div class="row-2-1">
+          <input type="button" value="7" onclick="getInput(this)" />
+        </div>
+        <div class="row-2-2">
+          <input type="button" value="8" onclick="getInput(this)" />
+        </div>
+        <div class="row-2-3">
+          <input type="button" value="9" onclick="getInput(this)" />
+        </div>
+        <div class="row-2-4">
+          <input type="button" value="-" onclick="getInput(this)" />
+        </div>
+        <div class="row-3-1">
+          <input type="button" value="4" onclick="getInput(this)" />
+        </div>
+        <div class="row-3-2">
+          <input type="button" value="5" onclick="getInput(this)" />
+        </div>
+        <div class="row-3-3">
+          <input type="button" value="6" onclick="getInput(this)" />
+        </div>
+        <div class="row-3-4">
+          <input type="button" value="+" onclick="getInput(this)" />
+        </div>
+        <div class="row-4-1">
+          <input type="button" value="1" onclick="getInput(this)" />
+        </div>
+        <div class="row-4-2">
+          <input type="button" value="2" onclick="getInput(this)" />
+        </div>
+        <div class="row-4-3">
+          <input type="button" value="3" onclick="getInput(this)" />
+        </div>
+        <div class="row-5-1">
+          <input type="button" value="0" onclick="getInput(this)" />
+        </div>
+        <div class="row-5-2">
+          <input type="button" value="." onclick="getInput(this)" />
+        </div>
+        <div id="row-5-3">
+          <input type="button" value="=" onclick="getInput(this)" />
+        </div>
+      </div>
+    </div>
+    <script src="js/functionality.js"></script>
+  </body>
+</html>
